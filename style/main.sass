@@ -10,6 +10,9 @@ body
   background-color: $mainbg
   color: $white
 
+.bluegrey
+  background-color: $bluegrey
+
 header
   background-color: $mainbg
 
@@ -22,12 +25,40 @@ header
   color: $white
   text-decoration: none
 
-main
+#movies
+  display: flex
+  flex-direction: row
+  justify-content: space-around
+  width: 100%
   background-color: $bluegrey
   min-height: 20rem
-
-#Movies
-  width: 100%
+  height: auto
 
 .item
+  width: 50%
+  min-height: 250px
+  height: auto
   background-color: $item-bg
+
+.item > *
+  margin: 0.5rem
+
+h4.like
+  float: left
+  margin-right: 0.5rem
+
+h4.like a
+  color: $green
+
+h4.like a:hover
+  text-decoration: none
+
+.likeInfo
+  float: left
+  width: 3.5rem
+  height: 3.5rem
+  border-radius: 1.75rem
+  margin-left: 0.5rem
+  background-color: $green
+  color: $white
+  font-size: 30px

@@ -3,6 +3,9 @@ body {
   background-color: #000000;
   color: #efefef; }
 
+.bluegrey {
+  background-color: #171e24; }
+
 header {
   background-color: #000000; }
 
@@ -15,14 +18,48 @@ header {
   color: #efefef;
   text-decoration: none; }
 
-main {
+#movies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
   background-color: #171e24;
-  min-height: 20rem; }
-
-#Movies {
-  width: 100%; }
+  min-height: 20rem;
+  height: auto; }
 
 .item {
+  width: 50%;
+  min-height: 250px;
+  height: auto;
   background-color: #111111; }
+
+.item > * {
+  margin: 0.5rem; }
+
+h4.like {
+  float: left;
+  margin-right: 0.5rem; }
+
+h4.like a {
+  color: #2ea43a; }
+
+h4.like a:hover {
+  text-decoration: none; }
+
+.likeInfo {
+  float: left;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 1.75rem;
+  margin-left: 0.5rem;
+  background-color: #2ea43a;
+  color: #efefef;
+  font-size: 30px; }
 
 /*# sourceMappingURL=main.css.map */
