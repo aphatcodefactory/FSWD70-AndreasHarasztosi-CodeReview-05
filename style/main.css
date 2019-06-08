@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+  background-color: #000000;
+  color: #efefef; }
+
+header {
+  background-color: #000000; }
+
+#nav {
+  background-color: #434343;
+  height: 50px;
+  font-size: 1.25rem; }
+
+#nav a, #nav a:hover {
+  color: #efefef;
+  text-decoration: none; }
+
+main {
+  background-color: #171e24;
+  min-height: 20rem; }
+
+#Movies {
+  width: 100%; }
+
+.item {
+  background-color: #111111; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,38 @@
+var movies = [
+    {
+      "id"    : "01",
+      "name"  : "John Wick: Kapitel 3",
+      "pic"   : "img/movie-01",
+      "discr" : "Im dritten Teil der kultigen Actionfilmreihe wird Keanu Reeves als Meisterkiller John Wick vom Jäger zum Gejagten, als ein Kopfgeld auf ihn ausgesetzt wird."
+    }
+    {
+      "id"    : "02",
+      "name"  : "Aladdin (2019)",
+      "pic"   : "img/movie-02",
+      "discr" : "Disney spendiert dem oscarprämierten Zeichentrickklassiker eine Realverfilmung mit Will Smith und Mena Massoud in den Hauptrollen als Dschinni und Aladdin."
+    }
+    {
+      "id"    : "03",
+      "name"  : "Avengers 4: Endgame",
+      "pic"   : "img/movie-03",
+      "discr" : "Der Krieg gegen Thanos geht in die zweite Runde – können die vereinten Superhelden der Avengers und der Guardians of the Galaxy diesmal den Tyrann besiegen?"
+    }
+    {
+      "id"    : "04",
+      "name"  : "Pokémon Meisterdetektiv Pikachu",
+      "pic"   : "img/movie-04",
+      "discr" : "In der ersten Pokémon-Realverfilmung basierend auf dem gleichnamigen Videospiel löst Pikachu als Meisterdetektiv einen kniffligen Fall — „Heurepika! Ich hab's!“"
+    }
+    {
+      "id"    : "05",
+      "name"  : "After Passion",
+      "pic"   : "img/movie-05",
+      "discr" : "Verfilmung der gleichnamigen erotischen Buchreihe von Anna Todd über die On-Off-Beziehung der ehrgeizigen Studentin Tessa Young und des Bad Boys Hardin Scott."
+    }
+    {
+      "id"    : "06",
+      "name"  : "Der Fall Collini",
+      "pic"   : "img/movie-06",
+      "discr" : "John Wick: Chapter 3: Im dritten Teil der kultigen Actionfilmreihe wird Keanu Reeves als Meisterkiller John Wick vom Jäger zum Gejagten, als ein Kopfgeld auf ihn ausgesetzt wird."
+    }
+  ];
