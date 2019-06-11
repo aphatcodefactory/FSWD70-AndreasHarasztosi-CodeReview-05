@@ -1,10 +1,10 @@
-var items = $('#movies'), likeInfo = $('likeInfo'), id = $('#id'), counter = 0;
+var items = $('#movies'), likeInfo = $('likeInfo'), likes;
 
-function countUpLike(id) {
+function countUpLike(id, movies) {
   $('.like a').on('click', function() {
-    //e.preventDefault();
-    console.log(id);
-    $(id).html(counter++);
+    e.preventDefault();
+    console.log(this.id);
+    console.log(movies[id].name);
   });
 }
 
@@ -17,7 +17,7 @@ function listMovies() {
           <h5 class="mt-0">` + movies[i].name + `</h5>
           <p>` + movies[i].discr + `</p>
           <h4 class="like"><a href="#">Like</a></h4>
-          <div class="likeInfo text-center align-self-center">` + counter + `</div>
+          <div class="likeInfo text-center align-self-center">` + movies[i].likes + `</div>
         </div>
       </div>
       `;

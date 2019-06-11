@@ -50,7 +50,8 @@
     <script src="js/myscript.js"></script>
     <script>
       listMovies();
-      countUpLike(id);
+      countUpLike(movies[$('.item').attr('id')].id, movies);
+      //console.log();
     </script>
   </body>
 </html>
